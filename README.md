@@ -13,12 +13,14 @@
 
 ## 🚀 Быстрый запуск
 ```bash
-wget -O boost.sh https://raw.githubusercontent.com/твой-ник/vps-boost/main/boost.sh && chmod +x boost.sh && ./boost.sh
+curl -fsSL https://raw.githubusercontent.com/luk1ss/vps-boost/main/boost.sh | bash
 ```
 
-Или через curl:
+Или скачать и запустить:
 ```bash
-curl -fsSL https://raw.githubusercontent.com/твой-ник/vps-boost/main/boost.sh | bash
+wget https://raw.githubusercontent.com/luk1ss/vps-boost/main/boost.sh
+chmod +x boost.sh
+./boost.sh
 ```
 
 ## 📋 Требования
@@ -43,4 +45,6 @@ vps-reset    # Удалить конфигурацию
 
 Настройки хранятся в `/etc/vpsboost/config.conf`
 
-## 👤 Автор: **luk1s**
+## 👤 Автор
+
+**luk1s**
